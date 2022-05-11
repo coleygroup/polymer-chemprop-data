@@ -131,7 +131,17 @@ dmypy.json
 .vscode/
 
 # ignore large files that can be generated with the scripts provided
-datasets/vipea/rf_input/dataset-mono_fps_binary.pkl
-datasets/vipea/rf_input/dataset-mono_fps_counts.pkl
+datasets/diblock-phases/rf_inputs/dataset-fps_counts-Xn.pkl
+datasets/diblock-phases/rf_inputs/dataset-fps_counts.pkl
+datasets/diblock-phases/rf_inputs/dataset-fps_counts-chain.pkl
+datasets/diblock-phases/rf_inputs/dataset-fps_counts-stoich.pkl
+datasets/diblock-phases/rf_inputs/dataset-fps_counts-chain_stoich_Xn.pkl
 datasets/vipea/rf_input/dataset-poly_fps_binary.pkl
+datasets/vipea/rf_input/dataset-mono_fps_binary.pkl
 datasets/vipea/rf_input/dataset-poly_fps_counts.pkl
+datasets/vipea/rf_input/dataset-mono_fps_counts.pkl
+results/diblock-phases/cv10-stratified/rf/w_val/fps_counts-stoich/dataset-fps_counts-stoich.pkl
+results/diblock-phases/cv10-stratified/rf/w_val/fps_counts-Xn/dataset-fps_counts-Xn.pkl
+results/diblock-phases/cv10-stratified/rf/w_val/fps_counts-chain_stoich_Xn/dataset-fps_counts-chain_stoich_Xn.pkl
+results/diblock-phases/cv10-stratified/rf/w_val/fps_counts-chain/dataset-fps_counts-chain.pkl
+results/diblock-phases/cv10-stratified/rf/w_val/fps_counts/dataset-fps_counts.pkl
