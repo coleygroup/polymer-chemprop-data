@@ -127,3 +127,11 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+.vscode/
+
+# ignore large files that can be generated with the scripts provided
+datasets/vipea/rf_input/dataset-mono_fps_binary.pkl
+datasets/vipea/rf_input/dataset-mono_fps_counts.pkl
+datasets/vipea/rf_input/dataset-poly_fps_binary.pkl
+datasets/vipea/rf_input/dataset-poly_fps_counts.pkl
