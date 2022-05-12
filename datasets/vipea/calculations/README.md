@@ -1,0 +1,4 @@
+## Calculations
+The input files for the xTB calculations were prepared with `make-polymers.py`. Run `python make-polymers.py -h` to see the options.
+
+The folders `4A_4B`, `2A_6B`, and `6A_2B` contain the calculation results for the octamers with different proportion of monomers A and B. The raw data/results of the calculations are not on GitHub due to the size they occupy. The scripts used to run the calculations (`submit_xtb_calcs_JobArray.sh`) are present in these folders. As are the parsed results: files `{0..9}_parsed_data.csv`. The index, 0 to 9, refers to the monomer A (we have 9 A monomers and 681 B monoomers). The xTB output was parsed with `aggregate_data.ipynb` to create these files, and then to concatenate the information from all these files into `../dataset.csv`.

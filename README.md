@@ -1,8 +1,8 @@
 # A graph representation of molecular ensembles for polymer property prediction
 
-Data and results associated with manuscript ...
+Data and results associated with the manuscript [Aldeghi & Coley (2022) "A graph representation of molecular ensembles for polymer property prediction"](#).
 
-Dataset of computed electron affinities and ionization potentials are ...
+The dataset of computed electron affinities and ionization potentials can be found in the folder `datasets/vipea`, but is also provided as a `csv` as part of the Supporting Information. If you'd like to reproduce the calculations, take a look at the files in this GitHub repo, but if you just want the dataset, you can download it from the [Electronic SI](#).
 
 
 ## Requirements
