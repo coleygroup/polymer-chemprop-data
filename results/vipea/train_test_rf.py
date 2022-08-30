@@ -95,7 +95,7 @@ for k, kfold in enumerate(kfolds):
     Y_val = Y.loc[val_idx, :]
     Y_test = Y.loc[test_idx, :]
 
-    # safe target labels for analysis
+    # save target labels for analysis
     Y_test.to_csv(f'input_test_{k}.csv', index=False)
 
     # define model
